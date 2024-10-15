@@ -1,0 +1,62 @@
+/* Page Background and Layout */
+body {
+    background-color: #eb9be1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Button Styling */
+.button {
+    background-color: #d50099; 
+    border: 2px solid #d50099;;
+    border-radius: 1rem; 
+    box-shadow: 0 10px 15px rgba(43, 166, 237, 0.47); 
+    width: 8rem; 
+    height: 4rem;
+    font-size: 1.125rem; 
+    font-weight: 600; 
+    color: white;
+    transition: background-color 5s ease, border-radius 5s ease; 
+}
+
+/* Hover Effect */
+.button:hover {
+    background-color: #a129f7; 
+    color: rgb(252, 139, 199);
+    border: 2px solid #a129f7;
+    border-radius: 50%;
+    transition: background-color 0.5s ease, border-radius 0.5s ease-out;
+}
+
+.content-box {
+    position: relative;
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    width: 500px;
+    max-height: 400px;
+    border: 5px solid #b007f8;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #eb1688;
+    align-items: center;
+    background-color: #f5e8a4;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.content-box ul{
+    margin-top: 2px;
+}
+.content-box ul li{
+    margin-top: 2px;
+    font-weight: 200;
+}
+
+
+
